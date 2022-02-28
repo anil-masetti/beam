@@ -1,0 +1,16 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
+  "/api/avatar": "pages/api/avatar.js",
+  "/api/sign-cloudinary": "pages/api/sign-cloudinary.js",
+  "/api/trpc/[trpc]": "pages/api/trpc/[trpc].js",
+  "/": "pages/index.html",
+  "/new": "pages/new.html",
+  "/post/[id]/edit": "pages/post/[id]/edit.html",
+  "/post/[id]": "pages/post/[id].html",
+  "/profile/[userId]": "pages/profile/[userId].html",
+  "/sign-in": "pages/sign-in.js",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}

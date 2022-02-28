@@ -1,0 +1,55 @@
+;(self.__BUILD_MANIFEST = (function (s, e, c, t, a, i, n) {
+  return {
+    __rewrites: { beforeFiles: [], afterFiles: [], fallback: [] },
+    '/': [e, s, c, n, 'static/chunks/pages/index-aa68a659a4490f93.js'],
+    '/_error': ['static/chunks/pages/_error-2280fa386d040b66.js'],
+    '/new': [e, t, a, s, c, i, 'static/chunks/pages/new-a3decbcb2212ee78.js'],
+    '/post/[id]': [
+      e,
+      t,
+      a,
+      'static/chunks/944-6a4a29c8d4fecea4.js',
+      s,
+      c,
+      i,
+      'static/chunks/pages/post/[id]-47fce708ac6638c2.js',
+    ],
+    '/post/[id]/edit': [
+      e,
+      t,
+      a,
+      s,
+      c,
+      i,
+      'static/chunks/pages/post/[id]/edit-99d82ebdf08448fa.js',
+    ],
+    '/profile/[userId]': [
+      e,
+      t,
+      s,
+      c,
+      n,
+      'static/chunks/pages/profile/[userId]-c3c2d88ab8aededd.js',
+    ],
+    '/sign-in': [s, 'static/chunks/pages/sign-in-4f0d3b5e2b02be06.js'],
+    sortedPages: [
+      '/',
+      '/_app',
+      '/_error',
+      '/new',
+      '/post/[id]',
+      '/post/[id]/edit',
+      '/profile/[userId]',
+      '/sign-in',
+    ],
+  }
+})(
+  'static/chunks/416-eede3555324e149a.js',
+  'static/chunks/33-61ecf00747855b9a.js',
+  'static/chunks/135-7117e03ef205c75f.js',
+  'static/chunks/364-20432bef44799c08.js',
+  'static/chunks/543-4547528882622528.js',
+  'static/chunks/97-f7e48d1bd4ae7abe.js',
+  'static/chunks/183-782f0603c22724ea.js'
+)),
+  self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

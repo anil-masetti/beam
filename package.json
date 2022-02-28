@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "export": "next export"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.3",
@@ -43,6 +44,7 @@
     "textarea-markdown-editor": "^0.1.13",
     "use-debounce": "^7.0.1",
     "use-item-list": "^0.1.2",
+    "webpack-preprocessor-loader": "^1.1.4",
     "zod": "^3.11.6"
   },
   "devDependencies": {
@@ -58,6 +60,7 @@
     "eslint": "8.8.0",
     "eslint-config-next": "12.0.10",
     "husky": "^7.0.0",
+    "next-babel-conditional-ssg-ssr": "^1.0.0",
     "postcss": "^8.4.6",
     "prettier": "2.5.1",
     "pretty-quick": "^3.1.3",

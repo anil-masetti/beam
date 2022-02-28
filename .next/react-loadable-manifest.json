@@ -1,0 +1,22 @@
+{
+  "../components/markdown-editor.tsx -> gemoji": {
+    "id": 791,
+    "files": [
+      "static/chunks/57e613a8.fc5b65cd14d0ca3d.js"
+    ]
+  },
+  "index.tsx -> @/components/post-summary": {
+    "id": 7011,
+    "files": [
+      "static/chunks/944-6a4a29c8d4fecea4.js",
+      "static/chunks/11.ce07505bb124fe4e.js"
+    ]
+  },
+  "profile/[userId].tsx -> @/components/post-summary": {
+    "id": 7011,
+    "files": [
+      "static/chunks/944-6a4a29c8d4fecea4.js",
+      "static/chunks/11.ce07505bb124fe4e.js"
+    ]
+  }
+}

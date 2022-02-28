@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  reactStrictMode: true,
+  // https://github.com/vercel/next.js/issues/21079
+  // Remove this workaround whenever the issue is fixed
   images: {
-    domains: ['res.cloudinary.com', 'avatars.githubusercontent.com'],
+    loader: 'imgix',
+    path: '/',
   },
 }
